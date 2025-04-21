@@ -25,12 +25,34 @@ This Python script automatically fills and submits any Google Form based on dyna
 - ChromeDriver (compatible with your Chrome version)
 
 
-## 2. Install Required Python Packages
 
-Make sure you have Python installed, then run:
+## ⚙️ Setup Instructions
+
+### 1. Clone the Project (or download the script)
 
 ```bash
-pip install selenium
+git clone https://github.com/yourusername/google-form-filler.git
+cd google-form-filler
+```
+### 2. Create and Activate a Virtual Environment
+
+- For Windows:
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+- For macOS/Linux:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+### 3. Install Required Python Packages
+
+- Instead of installing individual packages manually, you can install all dependencies listed in the requirements.txt file.
+
+```bash
+pip install -r requirements.txt
+```
 
 ## ▶️ How to Use
 
