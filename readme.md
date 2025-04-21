@@ -36,8 +36,7 @@ pip install selenium
 
 Run the script from your terminal or command prompt:
 
-```bash
-python google_form_filler.py
+    python google_form_filler.py
 
 ### 🛠️ When Prompted:
 
