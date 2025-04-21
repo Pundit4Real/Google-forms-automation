@@ -31,12 +31,13 @@ Make sure you have Python installed, then run:
 
 ```bash
 pip install selenium
+```
 
 ## ▶️ How to Use
 
 Run the script from your terminal or command prompt:
 
-    python google_form_filler.py
+      python google_form_filler.py
 
 ### 🛠️ When Prompted:
 
