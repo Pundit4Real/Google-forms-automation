@@ -98,3 +98,15 @@ pyinstaller --onefile --noconsole google_form_filler.py
         └── google_form_filler.exe
 
 ✅ Now you can run the executable directly without needing Python!
+
+✅ **Notes**
+
+- Works best with Google Forms that don’t require login or CAPTCHA.
+- Handles most field types automatically.
+- For advanced customization (e.g., specific answers to questions), the script can be extended easily.
+
+🧠 **License & Contribution**
+
+This project is free and open-source. Feel free to fork it, submit issues, or open pull requests.
+
+Made with ❤️ using Python + Selenium
