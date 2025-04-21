@@ -58,7 +58,7 @@ pip install -r requirements.txt
 
 Run the script from your terminal or command prompt:
 
-    python google_form_filler.py
+      python google_form_filler.py
 
 ### 🛠️ When Prompted:
 
@@ -84,11 +84,12 @@ If you'd like to share the script or use it on a system without Python installed
 
 ```bash
 pip install pyinstaller
-
+```
 #### 🔁 Step 2: Convert the Script
 
 ```bash
 pyinstaller --onefile --noconsole google_form_filler.py
+```
 
 #### 📂 Step 3: Locate Your Executable
 - Your .exe file will be available in the dist/ folder:
