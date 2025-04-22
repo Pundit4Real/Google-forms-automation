@@ -39,19 +39,19 @@ def fill_and_submit_form(form_url):
                 if not options:
                     continue
 
-                found_uner = False
+                found_uenr = False
                 for option in options:
                     try:
                         label = option.get_attribute("aria-label")
-                        if label and "UNER" in label:
+                        if label and "UENR" in label:
                             option.click()
-                            found_uner = True
+                            found_uenr = True
                             time.sleep(0.5)
                             break
                     except:
                         continue
 
-                if not found_uner:
+                if not found_uenr:
                     try:
                         random.choice(options).click()
                         time.sleep(0.5)
@@ -93,7 +93,7 @@ for i in range(num_submissions):
     fill_and_submit_form(form_url)
 
     if i < num_submissions - 1:
-        print(f"🕐 Waiting 1.2 hours before next submission...\n")
+        print(f"🕐 Waiting 3 minutes before next submission...\n")
         time.sleep(DELAY_BETWEEN_SUBMISSIONS)
 
 print("\n✅ All scheduled submissions completed.")
