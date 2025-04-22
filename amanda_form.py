@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 
 # ⏳ Delay in seconds between submissions (1.2 hours = 4320 seconds)
-DELAY_BETWEEN_SUBMISSIONS = 1.2 * 60 * 60  # 4320 seconds
+DELAY_BETWEEN_SUBMISSIONS = 3 * 60  # 4320 seconds
 
 def random_age(min_age=18, max_age=35):
     return str(random.randint(min_age, max_age))
